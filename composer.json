@@ -1,0 +1,26 @@
+{
+    "name": "brikou/zend_currency",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Currency Library",
+    "keywords": [
+        "zend framework",
+        "currency"
+    ],
+    "homepage": "https://github.com/brikou/zend_currency",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_cache": "*",
+        "brikou/zend_locale": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Currency": "" }
+    }
+}
